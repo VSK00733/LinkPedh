@@ -1,6 +1,6 @@
 ## LinkPedh
 
-LinkPedh is a website created to help you share multiple social media links. You can put all their social media and other links on LinkPedh and directly share your LinkPedh link to others. This will not only organise everything but also will make it easy for other people to contact you. Here is the website link: linkpedh.vercel.app
+LinkPedh is a website created to help you store multiple links. You can put all your social media and other links on LinkPedh without any worry of losing them. LinkPedh will help you organise all your links at one place. Here is the website link: linkpedh.vercel.app
 
 
 ## Getting Started
