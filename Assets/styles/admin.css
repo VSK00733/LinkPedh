@@ -34,14 +34,66 @@ nav h1 {
     margin-left: 3rem;
 }
 
-.profile_right h1{
-    margin-top: 2rem;
+.profile_right img{
+    height: 2rem;
+
 }
+
 
 .profile_right p {
     font-size: 1.5rem;
     font-weight: 200;
-    margin-top: 0.5rem;
+}
+
+.username{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.username img{
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.usernameInput{
+    display: none;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.usernameInput input{
+    padding: 0 1.5rem;
+    font-size: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+}
+
+.bioInput{
+    display: none;
+    align-items: center;
+}
+
+.bioInput input{
+    padding: 0 1.5rem;
+    font-size: 1.25rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.bio img{
+    height: 1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
 }
 
 .links {
@@ -119,6 +171,13 @@ nav h1 {
 .card a{
     text-decoration: none;
     color: black;
+}
+
+.card button{
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
 }
 
 .card i:hover{
