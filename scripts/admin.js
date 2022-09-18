@@ -74,3 +74,10 @@ function addBtn(){
 }
 // delete function (akshat)
 
+const deleteLink = (index) => {
+  var data = localStorage.getItem("links");
+  linksArray = JSON.parse(data);
+  linksArray.splice(index, 1);
+  localStorage.setItem("links", JSON.stringfy(linksArray));
+  show();
+}

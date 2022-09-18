@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Antonio', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 15px;
+    padding: 1rem;
+
+}
+
+nav img {
+    border-radius: 999px;
+    height: 2rem;
+}
+
+nav h1 {
+    margin-left: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile {
+    display: flex;
+    padding: 2rem 6rem;
+}
+
+.profile_right {
+    margin-left: 3rem;
+}
+
+.profile_right h1{
+    margin-top: 2rem;
+}
+
+.profile_right p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 0.5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+}
+
+.links_left {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links_left input {
+    width: 40%;
+    padding: 1rem 1.5rem;
+    background-color: #393939;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.links_left input:focus{
+    outline: none;
+    border: none;
+}
+
+.links_left input::placeholder {
+    color: white;
+}
+
+.links_right button{
+    padding: 1rem 1.5rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.links_right button:hover{
+    background: #9F9F9F;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem ;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.card{
+    background: rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+.card i{
+    background: #FF3F58;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.card i:hover{
+    background: #b02336;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 8px;
+    left: 47%;
+}
+
+.footer img{
+    border-radius: 999px;
+    height: 2rem;
+}
+
+.footer h3{
+    margin-left: 1rem;
+    font-family: 'Playball', cursive;
+}
+
+@media only screen and (max-width: 700px)
+{
+    html{
+        font-size: 50%;
+    }
+}
