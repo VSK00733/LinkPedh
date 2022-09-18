@@ -29,6 +29,10 @@ let linkImage = [
     {
         title:"Mail",
         image:"https://cdn-icons-png.flaticon.com/512/270/270021.png"
+    },
+    {
+        title : "Github",
+        image : "https://cdn-icons-png.flaticon.com/512/733/733609.png"
     }
 ]
 // show function (aditi)
