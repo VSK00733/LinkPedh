@@ -5,6 +5,30 @@ let linkImage = [
     {
         title:"Instagram",
         image:"https://commons.wikimedia.org/wiki/File:Instagram_logo_2022.svg"
+    },
+    {
+        title:"Twitter",
+        image:"https://cdn-icons-png.flaticon.com/512/3670/3670151.png"
+    },
+    {
+        title:"Facebook",
+        image:"https://cdn-icons-png.flaticon.com/512/5968/5968764.png"
+    },
+    {
+        title:"Whatsapp",
+        image:"https://cdn-icons-png.flaticon.com/512/3670/3670051.png"
+    },
+    {
+        title:"LinkedIn",
+        image:"https://cdn-icons-png.flaticon.com/512/145/145807.png"
+    },
+    {
+        title:"Portfolio",
+        image:"https://cdn-icons-png.flaticon.com/512/1205/1205904.png"
+    },
+    {
+        title:"Mail",
+        image:"https://cdn-icons-png.flaticon.com/512/270/270021.png"
     }
 ]
 // show function (aditi)
