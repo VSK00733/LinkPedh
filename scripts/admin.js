@@ -8,7 +8,7 @@ const footer = document.querySelector(".footer");
 let linkImage = [
     {
         title:"Instagram",
-        image:"https://commons.wikimedia.org/wiki/File:Instagram_logo_2022.svg"
+        image:"https://cdn-icons-png.flaticon.com/512/3955/3955024.png"
     },
     {
         title:"Twitter",
