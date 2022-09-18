@@ -68,6 +68,6 @@ body{
 @keyframes fill {
     to{
         /* mar: 100px; */
-        background: linear-gradient(180deg, #EEAECA 29.17%, rgba(183, 182, 221, 0.7) 75.52%, rgba(148, 187, 233, 0.6) 100%);
+        background: linear-gradient(127.73deg, rgba(221, 136, 8, 0.65) 13.67%, rgba(226, 11, 24, 0.6) 55.58%, rgba(144, 9, 226, 0.58) 90.78%);
     }
 }

@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(180deg, #EEAECA 29.17%, rgba(183, 182, 221, 0.7) 75.52%, rgba(148, 187, 233, 0.6) 100%) no-repeat;
 }
 
@@ -89,6 +89,7 @@ nav .nav_right a i {
 .card  a img{
     height: 5rem;
     margin-bottom: 0.5rem;
+    border-radius: 999px;
 }
 
 .card a{
@@ -104,8 +105,8 @@ nav .nav_right a i {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 8px;
-    left: 47%;
+    bottom: 0;
+    width: 100vw;
 }
 
 .footer img{
@@ -118,3 +119,36 @@ nav .nav_right a i {
     font-family: 'Playball', cursive;
 }
 
+@media only screen and (max-width: 700px)
+{
+    nav{
+        padding: 0.5rem 1rem;
+    }
+    nav .nav_left h1{
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    nav .nav_right a{
+        font-size: 0.75rem;
+    }
+    .profile{
+        padding: 2rem;
+        align-items: center;
+    }
+    .profile .profile_left img{
+        height: 5rem;
+    }
+    .profile .profile_right{
+        margin-left: 1.5rem;
+    }
+    .profile .profile_right h1{
+        margin-top: 0;
+        font-size: 1.25rem;
+    }
+    .profile .profile_right p{
+        font-size: 0.75rem;
+    }
+    .grid{
+        grid-template-columns: auto auto;
+    }
+}

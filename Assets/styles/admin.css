@@ -229,7 +229,56 @@ nav .nav_right a{
 
 @media only screen and (max-width: 700px)
 {
-    html{
-        font-size: 50%;
+    nav{
+        padding: 0.5rem 1rem;
+    }
+    nav .nav_left h1{
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    nav .nav_right a{
+        font-size: 0.75rem;
+    }
+    .profile{
+        padding: 2rem;
+        align-items: center;
+    }
+    .profile .profile_left img{
+        height: 5rem;
+    }
+    .profile .profile_right{
+        margin-left: 1.5rem;
+    }
+    .profile .profile_right h1{
+        margin-top: 0;
+        font-size: 1.25rem;
+    }
+    .profile .profile_right p{
+        font-size: 0.75rem;
+    }
+    .username{
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+    .profile_right img {
+        height: 1rem;
+        margin-left: 1rem;
+    }
+    .links{
+        padding: 1rem;
+    }
+    .links_left{
+        justify-content: space-evenly;
+    }
+    .links_left input{
+        font-size: 0.75rem;
+        padding: 0 0.5rem;
+    }
+    .links_right button{
+        padding: 0.5rem 1rem;
+        font-size: 0.75rem;
+    }
+    .grid{
+        grid-template-columns: auto;
     }
 }

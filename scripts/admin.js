@@ -2,6 +2,7 @@ const titleInput = document.querySelector(".title");
 const linkInput = document.querySelector(".link");
 const addBtn = document.querySelector(".addBtn");
 const grid = document.querySelector(".grid");
+const footer = document.querySelector(".footer");
 
 
 let linkImage = [
@@ -56,6 +57,16 @@ function showList()
         title = [];
     } else {
         title = JSON.parse(x);
+    }
+    if(title.length > 6)
+    {
+        footer.style.position = "static";
+        footer.style.marginTop = "1.5rem";
+    }
+    else
+    {
+        footer.style.position = "absolute";
+        footer.style.marginTop = "0";
     }
     var emptyStr = "";
     title.forEach((element, index)=>{
