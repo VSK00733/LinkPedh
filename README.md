@@ -11,6 +11,8 @@ LinkPedh is a website created to help you store multiple links. You can put all 
 
 🪄 https://linkpedh.vercel.app/ ✨
 
+![ss2](/Assets/img/rec.gif)
+
 ## Run Locally 💻
 
 ```
@@ -27,3 +29,6 @@ LinkPedh is a website created to help you store multiple links. You can put all 
 
 ## Screenshots 📸
 
+![ss3](/Assets/img/landing.png)
+![ss1](/Assets/img/admin.png)
+![ss2](/Assets/img/home.png)

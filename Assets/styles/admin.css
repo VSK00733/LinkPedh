@@ -281,4 +281,13 @@ nav .nav_right a{
     .grid{
         grid-template-columns: auto;
     }
+    .usernameInput{
+        margin-top: 0;
+    }
+    .usernameInput input{
+        font-size: 1.25rem;
+    }
+    .bioInput input{
+        font-size: 0.75rem;
+    }
 }
