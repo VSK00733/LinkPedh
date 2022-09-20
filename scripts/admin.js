@@ -46,7 +46,9 @@ localStorage.setItem("logos", JSON.stringify(linkImage));
 function showList()
 {
     let x = localStorage.getItem("links");
-    if (x == null || x==[]) {
+    console.log("showFunction");
+    if (JSON.parse(x).length == 0 || x==null) {
+        console.log("if");
         title = [
             {
                 title: "LinkPedh",
@@ -78,6 +80,7 @@ function showList()
         return;
     } else {
         title = JSON.parse(x);
+        console.log("not if");
     }
     if(title.length > 6)
     {
