@@ -40,21 +40,42 @@ let linkImage = [
     }
 ];
 
-// `<div class="card">
-// <a href="${element.link}" target="_blank">
-//     <img src="${element.src}">
-//     <span>${element.title}</span>
-// </a>
-// </div>`
-
 localStorage.setItem("logos", JSON.stringify(linkImage));
 
 // show function (aditi)
 function showList()
 {
     let x = localStorage.getItem("links");
-    if (x == null) {
-        title = [];
+    if (x == null || x==[]) {
+        title = [
+            {
+                title: "LinkPedh",
+                link: "https://mlsacbvp.github.io/LinkPedh/",
+                src: "https://cdn-icons-png.flaticon.com/512/2913/2913520.png"
+            },
+            {
+                title: "Text Jadoogar",
+                link: "https://textify-gilt.vercel.app/",
+                src: "https://cdn-icons-png.flaticon.com/512/3204/3204021.png"
+            },
+            {
+                title: "Showflix",
+                link: "https://mlsacbvp.github.io/ShowFlix/",
+                src: "https://cdn-icons-png.flaticon.com/512/3364/3364355.png"
+            },
+            {
+                title: "Review me",
+                link: "https://review-me-bay.vercel.app/",
+                src: "https://cdn-icons-png.flaticon.com/512/2973/2973781.png"
+            },
+            {
+                title: "MLSAC Github",
+                link: "https://github.com/mlsacbvp",
+                src: "https://cdn-icons-png.flaticon.com/512/733/733609.png"
+            }
+        ];
+        localStorage.setItem("links",JSON.stringify(title));
+        return;
     } else {
         title = JSON.parse(x);
     }
